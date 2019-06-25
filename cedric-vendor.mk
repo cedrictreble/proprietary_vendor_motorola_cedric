@@ -1189,8 +1189,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib64/liblowi_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblowi_client.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/liblowi_wifihal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblowi_wifihal.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/liblqe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblqe.so \
-    vendor/motorola/cedric/proprietary/vendor/lib64/libmdmcutback.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdmcutback.so \
-    vendor/motorola/cedric/proprietary/vendor/lib64/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdmdetect.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libmdmcutback.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/libmdmcutback.so \
+    vendor/motorola/cedric/proprietary/vendor/lib64/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/libmdmdetect.so \
+	vendor/motorola/cedric/proprietary/vendor/lib64/libandroid.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/libmdmdetect.so \
+	vendor/motorola/cedric/proprietary/vendor/lib64/libandroid_runtime.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/libmdmdetect.so \
+	vendor/motorola/cedric/proprietary/vendor/lib64/libmedia.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/libmdmdetect.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-color-convertor.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-hdcpmgr.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/libmmosal_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmosal_proprietary.so \
